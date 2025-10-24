@@ -36,8 +36,8 @@ This project showcases a full-stack application built using Django and Django RE
 ### Steps to Run
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Varunv003/django_app
-   cd django_app
+   git clone  https://github.com/Samuvel-victor/django_app-main.git
+   cd django_app-main
 
 2. Setup Virtual Environment (Optional but recommended):
    ```bash
