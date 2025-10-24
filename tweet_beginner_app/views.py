@@ -61,3 +61,9 @@ def register(request):
 
   return render(request, 'registration/register.html', {'form': form})
 
+from django.shortcuts import render
+from django.http import HttpResponse
+
+def home(request):
+    return HttpResponse("Welcome to the Tweet Beginner App!")
+

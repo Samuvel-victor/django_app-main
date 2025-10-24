@@ -18,12 +18,11 @@ from django.contrib import admin
 from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
+from tweet_beginner_app.views import home  # import your home view
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('tweet/', include('tweet_beginner_app.urls')),
     path('accounts/', include('django.contrib.auth.urls')),
+    path('', home),  # add this line for the home page
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
-
-
-
